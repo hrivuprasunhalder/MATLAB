@@ -1,0 +1,5 @@
+BE_O16= binding_energy(8,16,15.994915,true)
+
+BE_O16 =
+
+  127.6199
