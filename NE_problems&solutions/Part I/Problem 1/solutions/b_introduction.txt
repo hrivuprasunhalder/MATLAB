@@ -1,0 +1,1 @@
+Comparing Binding Energy per Nucleon from Semi Empirical Mass Formula(SEMF) to Experimental Data. Excluded 'eta' term due to its insignificance. 
