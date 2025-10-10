@@ -1,0 +1,3 @@
+For determining the Geometry Progression fitting parameters, MATXCOM was used.
+
+[Islam, Saad. "MATXCOM—an x-Ray/Gamma-Ray Attenuation Calculator for Arbitrary Materials Based on EPICS2023 Evaluated Photon Data Library". Radiation Physics and Chemistry, vol. 229, 2025, p. 112433, https://doi.org/10.1016/j.radphyschem.2024.112433.]
