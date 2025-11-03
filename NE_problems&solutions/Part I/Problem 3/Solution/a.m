@@ -33,11 +33,18 @@ K1= (c1_values.*(X_values.^a1_values)) + ((d1_values.*(tanh((X_values./Xk1_value
 EABF= 1 + (((b1_values-1).*((K1.^X_values)-1))./(K1-1));
 
 figure;hold on;
-plot(X_values,EBF,'-r');
-plot(X_values,EABF,'-g');
+plot(X_values,EBF(1,:),'-b','DisplayName','EBF(.015)');
+plot(X_values,EBF(2,:),'-w','DisplayName','EBF(0.15)');
+plot(X_values,EBF(3,:),'-r','DisplayName','EBF(1.5)');
+plot(X_values,EBF(4,:),'-g','DisplayName','EBF(3)');
+plot(X_values,EABF(1,:),'-y','DisplayName','EABF(.015)');
+plot(X_values,EABF(2,:),'-m','DisplayName','EABF(0.15)');
+plot(X_values,EABF(3,:),'-c','DisplayName','EABF(1.5)');
+plot(X_values,EABF(4,:),'b','DisplayName','EABF(3)');
 xlabel('Penetration Depth(MFP) ');
 ylabel('Build up Factor');
-title('B vs X at photon energies .015,0.15,1.5,3.0 ;Red is EBF ');
+legend('Location','bestoutside')
+title('B vs X at photon energies .015,0.15,1.5,3.0 ');
 hold off;
 grid on;
 
